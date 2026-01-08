@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body
+    class="bg-[url(./images/background1.jpg)] bg-cover bg-center h-screen text-white"
+  >
+    <header class="bg-[#FFFFFF80]">
+      <nav class="flex align-center justify-between px-12 h-16 lg:gap-8">
+        <a href="#" class="text-2xl font-bold px-2 py-3">Parking</a>
+        <div
+          class="dropdown-menu absolute -top-full left-0 max-lg:bg-[#FFFFFF80] w-full flex flex-col gap-6 items-center py-2 text-lg font-bold lg:static lg:flex-row lg:justify-between"
+        >
+          <ul
+            class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8 flex-1 justify-center"
+          >
+            <li class="hover:text-yellow-300">Acceuil</li>
+            <li class="hover:text-yellow-300">Services</li>
+            <li class="hover:text-yellow-300">A propos</li>
+          </ul>
+
+          <div class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+            <!-- <button class="bg-yellow-300 hover:bg-green-200 rounded-lg px-2">
+              Contact
+            </button> -->
+            <button
+              class="bg-yellow-300 hover:bg-yellow-200 rounded-lg px-2 py-1"
+            >
+              <a href="ajouterVehicule.html">Ajouter Vehicule</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="toggle-button lg:hidden">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+      </nav>
+    </header>
+    <script>
+      const toggleBtn = document.querySelector(".toggle-button");
+      const dropDown = document.querySelector(".dropdown-menu");
+      toggleBtn.addEventListener("click", () => {
+        dropDown.classList.toggle("top-16");
+      });
+    </script>
+  </body>
+</html>
