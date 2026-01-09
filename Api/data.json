@@ -1,0 +1,137 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "plateNumber": "123-ABC",
+      "type": "voiture",
+      "entryTime": "2026-01-06T08:00:00Z",
+      "exitTime": "2026-01-06T10:00:00Z",
+      "slotNumber": 1
+    },
+    {
+      "id": "2",
+      "plateNumber": "456-DEF",
+      "type": "moto",
+      "entryTime": "2026-01-06T09:15:00Z",
+      "exitTime": null,
+      "slotNumber": 2
+    },
+    {
+      "id": "3",
+      "plateNumber": "789-GHI",
+      "type": "camion",
+      "entryTime": "2026-01-06T07:30:00Z",
+      "exitTime": "2026-01-06T11:00:00Z",
+      "slotNumber": 3
+    },
+    {
+      "id": "4",
+      "plateNumber": "321-JKL",
+      "type": "voiture",
+      "entryTime": "2026-01-06T10:45:00Z",
+      "exitTime": null,
+      "slotNumber": 4
+    },
+    {
+      "id": "b17c",
+      "plateNumber": "A1-A2-A3",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:06:31.664Z",
+      "exitTime": null,
+      "slotNumber": 1
+    },
+    {
+      "id": "0f76",
+      "plateNumber": "AA-123-BB",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:31:15.983Z",
+      "exitTime": null,
+      "slotNumber": 3
+    },
+    {
+      "id": "6e99",
+      "plateNumber": "AA-123-BB",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:35:36.035Z",
+      "exitTime": null,
+      "slotNumber": 5
+    },
+    {
+      "id": "9b1e",
+      "plateNumber": "AA-123-BB",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:35:36.790Z",
+      "exitTime": null,
+      "slotNumber": 5
+    },
+    {
+      "id": "0132",
+      "plateNumber": "AA-123-BB",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:40:07.108Z",
+      "exitTime": null,
+      "slotNumber": 4
+    },
+    {
+      "id": "7134",
+      "plateNumber": "AA-123-BB",
+      "type": "voiture",
+      "entryTime": "2026-01-09T11:40:09.265Z",
+      "exitTime": null,
+      "slotNumber": 5
+    },
+    {
+      "id": "1b2c",
+      "plateNumber": "",
+      "type": "",
+      "entryTime": "2026-01-09T14:21:16.602Z",
+      "exitTime": null,
+      "slotNumber": 6
+    },
+    {
+      "id": "ea91",
+      "plateNumber": "AAAAAA",
+      "type": "voiture",
+      "entryTime": "2026-01-09T15:29:06.155Z",
+      "exitTime": null,
+      "slotNumber": 7
+    }
+  ],
+  "parkingSlots": [
+    {
+      "id": "1",
+      "number": 1,
+      "occupied": true
+    },
+    {
+      "id": "2",
+      "number": 2,
+      "occupied": true
+    },
+    {
+      "id": "3",
+      "number": 3,
+      "occupied": true
+    },
+    {
+      "id": "4",
+      "number": 4,
+      "occupied": true
+    },
+    {
+      "id": "5",
+      "number": 5,
+      "occupied": true
+    },
+    {
+      "id": "6",
+      "number": 6,
+      "occupied": true
+    },
+    {
+      "id": "7",
+      "number": 7,
+      "occupied": true
+    }
+  ]
+}
